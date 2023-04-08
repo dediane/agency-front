@@ -33,11 +33,11 @@
 
 .navLink {
     color: var(--nav-text);
+    background:rgba(0, 0, 0, 0)
 }
 
 .logo {
     display: flex;
-    flex-direction: row;
     align-items: center;
     font-size: 1.5rem;
     font-weight: 600;
@@ -52,33 +52,35 @@
 .hamburger {
     display: none;
     position: absolute;
-    top: 1.5em;
-    right: 1.5em;
+    top: 2em;
+    right: 2em;
 }
 
 @media screen and (max-width: 900px) {
 
     .logo {
         margin: 2.5rem;
-    }
-
-    .navbar {
-        padding: 0;
+        display: flex;
+        align-self: flex-start;
     }
 
     .hamburger {
-        display: block;
+        display: flex;
         font-size: 1.5rem;
         color: var(--nav-text);
         cursor: pointer;
     }
-
-    .menuWrapper {
+    
+    .navbar{
         position: absolute;
+        justify-content: flex-start;
         width: 100%;
         height: 100vh;
         top:0;
         left: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
     }
 
     .menuWrapper ul {
@@ -89,7 +91,7 @@
     .menuWrapper li {
         padding: 2rem 0;
         text-align: center;
-        width: 70%;
+
     }
 
     .menuWrapper button {
