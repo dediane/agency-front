@@ -31,7 +31,7 @@ const Navbar = () => {
                 <li><Link className={styles.navLink} href="/tarifs">Nos Tarifs</Link></li>
                 <li><Link className={styles.navLink} href="/tarifs">Financement</Link></li>
                 <li><Link className={styles.navLink} href="/aides">1500€ remboursés </Link></li>
-                <Button text="Je profite de l'offre" className={styles.button}/>
+                <Button text="Nous contactez" className={styles.button}/>
                 </ul>
             </div> : <div></div>}
         </nav>
