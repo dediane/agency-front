@@ -7,10 +7,32 @@
     font-size: 1rem;
     border-radius: 8px;
     box-shadow: 5px 6px 0px 0px #170B30;
+    border: 2px solid var(--bg-accent);
+    margin: 1rem;
 }
 
 .button:active {
     background-color: var(--bg-accent);
+    box-shadow: 0 1px #666;
+    transform: translateX(6px) translateY(5px);
+  }
+
+
+  .button2 {
+    background-color: #ffffff;
+    color: var(--bg-accent);
+    border: none;
+    padding: 1.2rem 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 8px;
+    box-shadow: 5px 6px 0px 0px var(--bg-accent);
+    border: 2px solid var(--bg-accent);
+    margin: 1rem;
+}
+
+.button2:active {
+    background-color: #ffffff;
     box-shadow: 0 1px #666;
     transform: translateX(6px) translateY(5px);
   }

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
+    position: sticky;
     box-sizing: border-box;
     padding: 2rem 6rem;
     height: 6rem;
@@ -56,8 +56,8 @@
     right: 2em;
 }
 
-@media screen and (max-width: 900px) {
-
+@media screen and (max-width: 900px) 
+{
     .logo {
         margin: 2.5rem;
         display: flex;
@@ -72,10 +72,9 @@
     }
     
     .navbar{
-        position: absolute;
+        position: sticky;
         justify-content: flex-start;
         width: 100%;
-        height: 100vh;
         top:0;
         left: 0;
         display: flex;
@@ -83,9 +82,16 @@
         padding: 0;
     }
 
+    .menuWrapper {
+        padding: 3rem;
+        width: 100%;
+        background-color: var(--bg)
+    }
+
     .menuWrapper ul {
         display: flex;
         flex-direction: column;
+        font-size: 1.2rem;
     }
 
     .menuWrapper li {
@@ -96,6 +102,6 @@
 
     .menuWrapper button {
         margin-top: 2rem;
+        font-size: 1.2rem;
     }
-
 }

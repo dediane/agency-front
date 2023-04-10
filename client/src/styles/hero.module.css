@@ -1,0 +1,44 @@
+
+.hero {
+  background: var(--bg);
+  padding: 4rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heroContent {
+    max-width: 1200px;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.heroSubtitle {
+  font-size: 1.2rem;
+  text-align: left;
+  max-width: 800px;
+}
+.typewriter {
+  color: var(--bg-accent);
+}
+
+
+@media screen and (max-width: 900px) 
+{
+  .hero {
+    padding-top: 2rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+}
