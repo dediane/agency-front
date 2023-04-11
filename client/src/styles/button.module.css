@@ -11,7 +11,7 @@
     margin: 1rem;
 }
 
-.button:active {
+.button:hover{
     background-color: var(--bg-accent);
     box-shadow: 0 1px #666;
     transform: translateX(6px) translateY(5px);
@@ -31,8 +31,14 @@
     margin: 1rem;
 }
 
-.button2:active {
-    background-color: #ffffff;
+.button2:hover {
+    background-color: #ffffff00;
+    box-shadow: 0 1px #666;
+    transform: translateX(6px) translateY(5px);
+  }
+
+  .button2:active {
+    background-color: var(--bgHover);
     box-shadow: 0 1px #666;
     transform: translateX(6px) translateY(5px);
   }

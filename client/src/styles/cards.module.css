@@ -1,7 +1,6 @@
 .cards {
     display: flex;
     flex-direction: row;
-    background-color: blue;
     justify-content: center;
     align-items: center;
 }

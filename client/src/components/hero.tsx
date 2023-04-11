@@ -2,12 +2,13 @@ import React from 'react';
 import styles from '../styles/hero.module.css';
 import Typewriter from 'typewriter-effect';
 import { Button, Button2 } from './button';
-import { Divider } from './divider';
+import { Decoration } from './decoration';
 
 
 export const Hero = () => {
     return (
-        <section>
+        <section className={styles.animate}>
+            <Decoration />
             <div className={styles.hero}>
                 <div className={styles.heroContent}>
                     <div className={styles.content}>
@@ -19,16 +20,16 @@ export const Hero = () => {
                             wrapperClassName: styles.typewriter,
                             cursorClassName: styles.typewriter, }}
                             onInit={(typewriter) => {
-                                typewriter.typeString('visibilité en ligne.')
+                                typewriter.typeString('visibilité en ligne')
                                 .pauseFor(2500)
                                 .deleteAll()
-                                typewriter.typeString("chiffre d'affaires.")
+                                typewriter.typeString("chiffre d'affaires")
                                 .pauseFor(2500)
                                 .deleteAll()
-                                typewriter.typeString('nombre de clients.')
+                                typewriter.typeString('nombre de clients')
                                 .pauseFor(2500)
                                 .deleteAll()
-                                typewriter.typeString('réputation.')
+                                typewriter.typeString('réputation')
                                 .pauseFor(2500)
                                 .deleteAll()
                                 .start();
@@ -43,7 +44,6 @@ export const Hero = () => {
                     <Button2 text="Je test mon éligibilité" className={styles.button}/>
                 </div>
             </div>
-            <hr/>
         </section>
     );
 };

@@ -4,11 +4,13 @@
   display: flex;
   flex-direction: column;
   width: 300px;
-  background-color: #ffffff;
+  background-color: var(--bg);
+  border: 3px solid var(--bg-accent);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 1rem;
   padding: 1rem;
+  color: var(--text);
 
 }
 

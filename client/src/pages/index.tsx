@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import { Hero } from '@/components/hero'
 import { Card } from '@/components/card'
 import { Cards } from '@/components/cards'
-import { Divider } from '@/components/divider'
+import { Decoration } from '@/components/decoration'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,7 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero/>
-
+      <Cards/>
     </>
   )
 }

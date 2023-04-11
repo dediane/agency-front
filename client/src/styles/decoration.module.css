@@ -1,0 +1,73 @@
+.square {
+    position: absolute;
+    top: -5rem;
+    right: -300px;
+    overflow-x: none;
+    background-color: var(--peach);
+    width: 35rem;
+    height: 60rem;
+    border-radius: 3rem;
+    Rotate: -25deg;
+    animation: fadeInAnimationRight 1.5s ease-in-out;
+    z-index: -1;
+}
+
+.square2 {
+    position: absolute;
+    top: -5rem;
+    left: -240px;
+    overflow-x: none;
+    background-color: var(--pink);
+    width: 35rem;
+    height: 35rem;
+    border-radius: 3rem;
+    rotate: -25deg;
+    animation: fadeInAnimationLeft 1.5s ease-in-out;
+    z-index: -1;
+}
+
+.square3 {
+    position: absolute;
+    top: 35rem;
+    left: 10rem;
+    overflow-x: none;
+    background-color: var(--yellow);
+    width: 20rem;
+    height: 16rem;
+    border-radius: 2rem;
+    rotate: 15deg;
+    animation: fadeInAnimationLeft 1.5s ease-in-out;
+    z-index: -1;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+@keyframes fadeInAnimationLeft {
+    0% {
+        opacity: 0;
+        transform:translateX(-50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInAnimationRight {
+    0% {
+        opacity: 0;
+        transform:translateX(50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

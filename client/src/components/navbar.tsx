@@ -16,8 +16,8 @@ const Navbar = () => {
     <>
         <nav className={styles.navbar}>
             <div className={styles.logo}>
-                <Image src="/logo.png" width={50} height={50} alt="logo" />
-                <a href="/">Jomnio</a> 
+                {/* <Image src="/logo.png" width={50} height={50} alt="logo" />
+                <a href="/">Jomnio</a>  */}
                 <Image src="/menu-icon.svg" 
                 width={25} 
                 height={25} 
