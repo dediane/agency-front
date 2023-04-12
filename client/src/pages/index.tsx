@@ -5,6 +5,7 @@ import { Hero } from '@/components/hero'
 import { Card } from '@/components/card'
 import { Cards } from '@/components/cards'
 import { Decoration } from '@/components/decoration'
+import { LogoAnimation } from '@/components/logoanimation'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function Home() {
       </Head>
       <Hero/>
       <Cards/>
+      <LogoAnimation />
     </>
   )
 }

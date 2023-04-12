@@ -71,3 +71,47 @@
         transform: translateX(0);
     }
 }
+
+@media screen and (max-width: 900px) {
+    .square {
+        position: absolute;
+        top: -10rem;
+        right: 15px;
+        overflow-x: none !important;
+        background-color: var(--peach);
+        width: 15rem;
+        height: 20rem;
+        border-radius: 3rem;
+        Rotate: -25deg;
+        animation: fadeInAnimationRight 1.5s ease-in-out;
+        z-index: -1;
+    }
+
+    .square2 {
+        position: absolute;
+        top: -5rem;
+        left: -220px;
+        overflow-x: none;
+        background-color: var(--pink);
+        width: 15rem;
+        height: 25rem;
+        border-radius: 3rem;
+        rotate: -25deg;
+        animation: fadeInAnimationLeft 1.5s ease-in-out;
+        z-index: -1;
+    }
+
+    .square3 {
+        position: absolute;
+        top: 28rem;
+        left: 12rem;
+        overflow-x: none;
+        background-color: var(--yellow);
+        width: 10rem;
+        height: 8rem;
+        border-radius: 2rem;
+        rotate: 15deg;
+        animation: fadeInAnimationLeft 1.5s ease-in-out;
+        z-index: -1;
+    }
+}

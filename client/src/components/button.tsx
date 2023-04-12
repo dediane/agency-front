@@ -16,3 +16,11 @@ export const Button2 = (props : any) => {
         </>
     );
 }
+
+export const Cta = (props : any) => {
+    return (
+        <>
+        <button className={styles.cta}>{props.text}</button>
+        </>
+    );
+}
