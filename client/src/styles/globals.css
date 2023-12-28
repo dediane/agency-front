@@ -10,9 +10,23 @@
 }
 
 :root {
-  --bg:  #fff5ec;
+
+  /* THEME RED */ 
+  /* --bg:  #fff5ec;
   --bgHover:  #fcecdc;
   --bg-accent: #eb5555;
+  --accent: #f7d56f;
+  --accent2: #f0b19e;
+  --accent3: #ff808b; */
+
+    /* THEME BLUE */ 
+  --bg:  #fff5ec;
+  --bgHover:  #fcecdc;
+  --bg-accent: #43afe0;
+  --accent3: #ffc446;
+  --accent: #5eccff;
+  --accent2: #f880a0;
+
   /* --bg-accent: #876cff; */
   --yellow: #f7d56f;
   --blue: #6da3f9;

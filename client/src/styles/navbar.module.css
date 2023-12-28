@@ -34,6 +34,7 @@
 
 .navLink {
     color: var(--nav-text);
+    font-weight: 600;
     background:rgba(0, 0, 0, 0)
 }
 

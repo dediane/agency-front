@@ -1,0 +1,91 @@
+.pricingcard {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: var(--bg);
+    /* border: 3px solid var(--pink); */
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    /* box-shadow: 5px 6px 0px 0px var(--pink); */
+    margin: 1rem;
+    padding: 1rem;
+    color: var(--text);
+  }
+
+  .color1 {
+    border: 3px solid #8AC6D1;
+    box-shadow: 5px 6px 0px 0px#8AC6D1;
+  }
+
+  .color2 {
+    border: 3px solid #FFD97D;
+    box-shadow: 5px 6px 0px 0px#FFD97D;
+  }
+
+  .color3 {
+    border: 3px solid #3AAFA9;
+    box-shadow: 5px 6px 0px 0px#3AAFA9;
+  }
+
+  .pink {
+    border: 3px solid var(--pink);
+    box-shadow: 5px 6px 0px 0px var(--pink);
+  }
+
+  .yellow {
+    border: 3px solid var(--yellow);
+    box-shadow: 5px 6px 0px 0px var(--yellow);
+  }
+  
+  .accent {
+    border: 3px solid var(--bg-accent);
+    box-shadow: 5px 6px 0px 0px var(--bg-accent);
+  }
+
+  .peach {
+    border: 3px solid var(--peach);
+    box-shadow: 5px 6px 0px 0px var(--peach);
+  }
+  
+  .pricingcard:hover {
+    box-shadow: 0 1px #666;
+    transform: translateX(6px) translateY(5px);
+  }
+  
+  .card-image {
+    height: 200px;
+    background-image: url('https://via.placeholder.com/300x200');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .cardContent {
+    padding: 20px;
+  }
+  
+  .cardTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .cardText {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .card-button {
+    display: block;
+    background-color: #3498db;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .card-button:hover {
+    background-color: #2980b9;
+  }

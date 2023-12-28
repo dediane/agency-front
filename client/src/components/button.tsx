@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from '../styles/button.module.css';
 import React from "react";
 

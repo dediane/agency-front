@@ -1,11 +1,11 @@
 .square {
     position: absolute;
-    top: -5rem;
+    top: 6rem;
     right: -300px;
     overflow-x: none;
-    background-color: var(--peach);
+    background-color: var(--accent2);
     width: 35rem;
-    height: 60rem;
+    height: 50rem;
     border-radius: 3rem;
     Rotate: -25deg;
     animation: fadeInAnimationRight 1.5s ease-in-out;
@@ -17,7 +17,7 @@
     top: -5rem;
     left: -240px;
     overflow-x: none;
-    background-color: var(--pink);
+    background-color: var(--accent3);
     width: 35rem;
     height: 35rem;
     border-radius: 3rem;
@@ -31,7 +31,7 @@
     top: 35rem;
     left: 10rem;
     overflow-x: none;
-    background-color: var(--yellow);
+    background-color: var(--accent);
     width: 20rem;
     height: 16rem;
     border-radius: 2rem;
@@ -78,7 +78,7 @@
         top: -10rem;
         right: 15px;
         overflow-x: none !important;
-        background-color: var(--peach);
+        background-color: var(--accent2);
         width: 15rem;
         height: 20rem;
         border-radius: 3rem;
@@ -92,7 +92,7 @@
         top: -5rem;
         left: -220px;
         overflow-x: none;
-        background-color: var(--pink);
+        background-color: var(--accent3);
         width: 15rem;
         height: 25rem;
         border-radius: 3rem;
@@ -106,7 +106,7 @@
         top: 28rem;
         left: 12rem;
         overflow-x: none;
-        background-color: var(--yellow);
+        background-color: var(--accent);
         width: 10rem;
         height: 8rem;
         border-radius: 2rem;

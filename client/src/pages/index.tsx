@@ -20,7 +20,7 @@ export default function Home() {
       </Head>
       <Hero/>
       <Cards/>
-      <LogoAnimation />
+      {/*<LogoAnimation />*/}
     </>
   )
 }

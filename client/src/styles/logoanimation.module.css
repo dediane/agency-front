@@ -16,6 +16,8 @@
 .anim {
     display: flex;
     overflow: hidden;
+    font-size: x-large;
+    background-color: aqua;
     width: 100%;
     position: absolute;
     transform: translate(-50%);
