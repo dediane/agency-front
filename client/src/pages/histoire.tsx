@@ -1,8 +1,8 @@
-export default function Solution() {
+export default function Histoire() {
     return (
         <>
         <div>
-            <h1>Nos Solutions</h1>
+            <h1>Notre Histoire</h1>
         </div>
         </>
     );

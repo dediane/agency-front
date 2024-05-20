@@ -36,10 +36,6 @@
   color: var(--bg-accent);
 }
 
-.animate {
-  
-}
-
 @media screen and (max-width: 900px) 
 {
   .hero {

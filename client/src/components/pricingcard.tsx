@@ -1,41 +1,44 @@
 import React from "react";
 import styles from "../styles/pricingcard.module.css";
+import { Button, Button2, Buttonblack } from "./button";
 
-export const PricingCard = (props :any) => {
+export const PricingCard = (props: any) => {
+    const content = props.content.map((item: any, index: number) => {
+        return <li key={index}>✔️ {item}</li>;
+    }
+    );
     let color;
 
     switch (props.color) {
-        case "pink":
-            color = styles.pink;
-            break;
         case "red":
             color = styles.accent;
             break;
-        case "yellow":
-            color = styles.yellow;
-            break;
-        case "peach":
-            color = styles.peach;
-            break;
-        case "color1":
-            color = styles.color1;
-            break;
-        case "color2":
-            color = styles.color2;
-            break;
-        case "color3":
-            color = styles.color3;
-            break;
-        default:
-            color = styles.accent;
+        case "black":
+            color = styles.black;
             break;
     }
+
     return (
         <>
             <div className={`${styles.pricingcard} ${color}`}>
                 <div className={styles.cardContent}>
+                    <div className={styles.pricesection}>
+                        <p>à partir de</p>
+                        <div className={styles.row}>
+                            <p className={styles.price}>{props.price}</p>
+                        <p className={styles.dollar}>€</p>
+                        <p>HT</p>
+                            {/* <p className={styles.pricedetail}>{props.pricedetail}</p> */}
+                        </div>
+                    </div>
                     <h3 className={styles.cardTitle}>{props.title}</h3>
-                    <p className={styles.cardText}>{props.content}</p>
+                    <ul>
+                        {content}
+                    </ul>
+                    {/* <p className={styles.cardText}>{props.content}</p> */}
+                </div>
+                <div className={styles.buttondiv} >
+                    <Buttonblack text="Commander" />
                 </div>
             </div>
         </>

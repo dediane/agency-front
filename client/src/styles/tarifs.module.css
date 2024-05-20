@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    align-items: center; 
+    justify-content: center;    
+}
+
+.title {
+    font-size: 62px;
+    font-weight: 600;
+    margin: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 42px;
+    }
+}

@@ -5,13 +5,14 @@
   flex-direction: column;
   width: 300px;
   background-color: var(--bg);
-  border: 3px solid var(--bg-accent);
+  border: 1px solid var(--black);
   border-radius: 10px;
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-  box-shadow: 5px 6px 0px 0px var(--bg-accent);
+  box-shadow: 5px 6px 0px 0px var(--black);
   margin: 1rem;
   padding: 1rem;
   color: var(--text);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
 
 }
 

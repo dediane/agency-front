@@ -6,6 +6,9 @@ import { Card } from '@/components/card'
 import { Cards } from '@/components/cards'
 import { Decoration } from '@/components/decoration'
 import { LogoAnimation } from '@/components/logoanimation'
+import { AccordionComponent } from '@/components/accordion'
+import Introduction from '@/components/valeurs'
+import Valeurs from '@/components/valeurs'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,6 +23,8 @@ export default function Home() {
       </Head>
       <Hero/>
       <Cards/>
+      {/* <Valeurs/> */}
+      <AccordionComponent />
       {/*<LogoAnimation />*/}
     </>
   )

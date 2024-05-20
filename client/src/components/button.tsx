@@ -10,6 +10,14 @@ export const Button = (props : any) => {
     );
 }
 
+export const Buttonblack = (props : any) => {
+    return (
+        <>
+        <button className={styles.buttonblack}>{props.text}</button>
+        </>
+    );
+}
+
 export const Button2 = (props : any) => {
     return (
         <>

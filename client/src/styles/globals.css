@@ -12,20 +12,22 @@
 :root {
 
   /* THEME RED */ 
-  /* --bg:  #fff5ec;
+  --bg:  #fff5ec;
+  --glass: rgba(255, 255, 255, 0.15);
   --bgHover:  #fcecdc;
   --bg-accent: #eb5555;
   --accent: #f7d56f;
   --accent2: #f0b19e;
-  --accent3: #ff808b; */
+  --accent3: #ff808b;
+  --black: #121212;
 
     /* THEME BLUE */ 
-  --bg:  #fff5ec;
+  /* --bg:  #fff5ec;
   --bgHover:  #fcecdc;
   --bg-accent: #43afe0;
   --accent3: #ffc446;
   --accent: #5eccff;
-  --accent2: #f880a0;
+  --accent2: #f880a0; */
 
   /* --bg-accent: #876cff; */
   --yellow: #f7d56f;

@@ -8,6 +8,7 @@
     height: 6rem;
     width: 100%;
     overflow: hidden;
+    z-index: 1000;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); */
 }
 
@@ -58,6 +59,7 @@
     right: 2em;
 }
 
+
 @media screen and (max-width: 900px) 
 {
     .logo {
@@ -82,12 +84,22 @@
         display: flex;
         flex-direction: column;
         padding: 0;
+        z-index: 1000;
+        overflow: visible;
     }
 
     .menuWrapper {
+        position: fixed;
+        top: 6rem;
+        left: 0;
+        right: 0;
         padding: 3rem;
         width: 100%;
-        background-color: var(--bg)
+        background-color: var(--bg);
+        z-index: 1000;
+        border: 1px solid var(--black);
+        border-radius: 20px;
+        margin: 10px 10px;
     }
 
     .menuWrapper ul {

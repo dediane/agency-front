@@ -38,7 +38,7 @@ export const Hero = () => {
                             </h1>
                     </div>
                     <h2 className={styles.heroSubtitle}>
-                       Profitez des chèques numériques jusqu'à <b>1500€</b> pour vous digitaliser.
+                       Profitez des chèques numériques jusqu&apos;à <b>1500€</b> pour vous digitaliser.
                        <br/>Nous facilitons votre <b>transition numérique</b>.
                     </h2>
                     <Link href="/contact">

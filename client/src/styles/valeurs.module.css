@@ -1,0 +1,54 @@
+.introduction {
+  margin: 40px 0;
+}
+
+.container {
+    padding: 30px 30px;
+    background-color: var(--bg);
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 25px;
+    border: 2px solid var(--bg-accent);
+
+}
+  .subheading {
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .paragraph {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .valuesList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .valuesList li {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  .valuesList h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: var(--bg);
+    border: 1px solid var(--black);
+    border-radius: 15px;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+  }

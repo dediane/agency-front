@@ -1,7 +1,7 @@
 .pricingcard {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 360px;
     background-color: var(--bg);
     /* border: 3px solid var(--pink); */
     border-radius: 10px;
@@ -12,31 +12,6 @@
     color: var(--text);
   }
 
-  .color1 {
-    border: 3px solid #8AC6D1;
-    box-shadow: 5px 6px 0px 0px#8AC6D1;
-  }
-
-  .color2 {
-    border: 3px solid #FFD97D;
-    box-shadow: 5px 6px 0px 0px#FFD97D;
-  }
-
-  .color3 {
-    border: 3px solid #3AAFA9;
-    box-shadow: 5px 6px 0px 0px#3AAFA9;
-  }
-
-  .pink {
-    border: 3px solid var(--pink);
-    box-shadow: 5px 6px 0px 0px var(--pink);
-  }
-
-  .yellow {
-    border: 3px solid var(--yellow);
-    box-shadow: 5px 6px 0px 0px var(--yellow);
-  }
-  
   .accent {
     border: 3px solid var(--bg-accent);
     box-shadow: 5px 6px 0px 0px var(--bg-accent);
@@ -47,20 +22,34 @@
     box-shadow: 5px 6px 0px 0px var(--peach);
   }
   
-  .pricingcard:hover {
+  .black {
+    border: 3px solid var(--black);
+    box-shadow: 5px 6px 0px 0px var(--black);
+  }
+
+  /* .pricingcard:hover {
     box-shadow: 0 1px #666;
     transform: translateX(6px) translateY(5px);
   }
-  
+   */
   .card-image {
     height: 200px;
     background-image: url('https://via.placeholder.com/300x200');
     background-size: cover;
     background-position: center;
   }
+
+  .header {
+    padding: 0.5rem 1rem;
+    background-color: var(--black);
+    color: var(--bg);
+    display: flex;
+    justify-content: space-between;
+  }
   
   .cardContent {
     padding: 20px;
+    height: 500px;
   }
   
   .cardTitle {
@@ -75,17 +64,34 @@
     margin-bottom: 20px;
   }
   
-  .card-button {
-    display: block;
-    background-color: #3498db;
-    color: #ffffff;
-    text-align: center;
-    padding: 10px 0;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.2s ease-in-out;
+  .pricesection {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 0rem 3rem 3rem;
   }
   
-  .card-button:hover {
-    background-color: #2980b9;
+  .dollar {
+    font-size: 42px;
+    margin-right: 0.5rem;
+    font-weight: 400;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  .price {
+    font-size: 62px;
+    color: var(--black);
+    margin: 0;
+    font-weight: 600;
+  }
+
+  .buttondiv {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-bottom: 2rem;
   }

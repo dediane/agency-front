@@ -76,8 +76,8 @@
     .square {
         position: absolute;
         top: -10rem;
-        right: 15px;
-        overflow-x: none !important;
+        right: 13%;
+        overflow-x: hidden;
         background-color: var(--accent2);
         width: 15rem;
         height: 20rem;

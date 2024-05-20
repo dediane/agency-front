@@ -1,0 +1,101 @@
+.accordionItem {
+    /* border: 1px solid var(--accent); */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .accordionTitle {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border-bottom: 0.5px solid var(--black);
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  .accordionTitle:hover {
+    /* background-color: var(--accent); */
+    color: var(--bg-accent);
+  }
+  
+  .accordionContent {
+    /* background-color: #fff; */
+    padding: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: var(--bg);
+    border: 1px solid var(--black);
+    box-shadow: 5px 6px 0px 0px var(--black);
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+  .accordionContent2 {
+    padding: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: var(--bg);
+    margin: 0 auto;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+
+  .accordionContent h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  /* Responsive Styles */
+@media (max-width: 768px) {
+  .accordionTitle {
+    font-size: 16px;
+    padding: 20px;
+  }
+
+  .accordionContent,
+  .accordionContent2 {
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .accordionContent h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .accordionTitle {
+    font-size: 14px;
+    padding: 15px;
+  }
+
+  .accordionContent,
+  .accordionContent2 {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .accordionContent h1 {
+    font-size: 1.5rem;
+  }
+}
